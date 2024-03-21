@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #f07b22;
 }
 
 .container {
@@ -13,8 +13,9 @@ body {
 }
 
 h1 {
-    font-size: 36px;
-    color: #8B4513;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #211003;
     margin-top: 20px;
     z-index: 1;
 }
@@ -35,7 +36,7 @@ h1 {
 .petal {
     width: 45px;
     height: 90px;
-    background-color: #FFD700;
+    background-color: #e6ff05;
     border-radius: 50%;
     position: absolute;
     top: 50%;
