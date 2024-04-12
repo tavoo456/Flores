@@ -1,4 +1,4 @@
-function createFlower() {
+function createFlower()  {
     const flowerContainer = document.querySelector(".flower-container");
 
     // Número máximo de flores en pantalla

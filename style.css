@@ -1,21 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f07b22;
+    background-color: #000000;
 }
 
 .container {
+    margin-top: 10%;
     text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a65415;
+    margin-top: 20px;
+    z-index: 1;
 }
 
 h1 {
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
-    color: #211003;
+    color: #a65415;
     margin-top: 20px;
     z-index: 1;
 }
@@ -42,6 +51,11 @@ h1 {
     top: 50%;
     left: 50%;
     transform-origin: 0 100%;
+}
+
+.imagenes{
+    text-align: center;
+    width: 50%;
 }
 
 .p1 { transform: translate(-50%, -50%) rotate(0deg); }
